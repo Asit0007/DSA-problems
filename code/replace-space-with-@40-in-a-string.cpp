@@ -2,8 +2,8 @@
 #include <string>
 using namespace std;
 string replaceSpaces(string &str){
-    
-	// Write your code here.
+	
+    //traversing the string and looking for space
     string temp="";
     for(int i=0; i<str.length(); i++) {
         if(str[i] == ' ') {
@@ -19,6 +19,8 @@ string replaceSpaces(string &str){
     
 }
 int main() {
+	
+    //taking user input
     string s="";
     cout<<"\nEnter a string : ";
     getline(cin,s);
