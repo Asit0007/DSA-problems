@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-
+// calculating the total
 int sum(int array[], int N) {
     int sum=0;
     for(int i=0; i<N; i++) {
@@ -11,6 +11,7 @@ int sum(int array[], int N) {
     
 }
 
+// performing operation
 int check(int array[], int N, int K) {
     int count=0,sol=0;
 
