@@ -56,6 +56,7 @@ bool checkInclusion(string s1, string s2) {
 }
 
 int main() {
+    //variable space
     string s1="aa";
     string s2="am dani aathanni";
     if(checkInclusion(s1, s2))
